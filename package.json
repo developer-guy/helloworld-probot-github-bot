@@ -1,0 +1,31 @@
+{
+  "name": "my-first-probot-github-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Probot HelloWorld Github Bot",
+  "author": "Batuhan Apaydın <developerguyn@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/batuhan.apaydin/my-first-probot-github-bot.git",
+  "homepage": "https://github.com/batuhan.apaydin/my-first-probot-github-bot",
+  "bugs": "https://github.com/batuhan.apaydin/my-first-probot-github-bot/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^10.9.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nock": "^13.0.4",
+    "smee-client": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
